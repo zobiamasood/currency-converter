@@ -1,5 +1,5 @@
 
-📌 Currency Converter — README
+📌 Currency Converter
 
 A simple and responsive Currency Converter built using HTML, CSS, JavaScript, and the Fetch API. It retrieves real-time exchange rates from a public currency API.
 
