@@ -63,33 +63,6 @@ currency-converter/
 
 . This makes the UI more interactive and visually clear.
 
-🔗 API Usage Example
-const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies";
-
-async function convert(from, to, amount) {
-  const response = await fetch(`${BASE_URL}/${from}/${to}.json`);
-
-  if (!response.ok) throw new Error("API request failed");
-
-  const data = await response.json();
-  const rate = data[to];
-  const result = (amount * rate).toFixed(2);
-
-  return { rate, result };
-}
-
-🧾 Example HTML Structure
-<form id="convertForm">
-  <input type="number" id="amount" value="1" min="0" step="any" />
-  
-  <select id="from"></select>
-  <select id="to"></select>
-
-  <button type="submit">Convert</button>
-</form>
-
-<div id="output"></div>
-
 📬 Contact
 
 If you have any questions or want improvements, feel free to ask!
