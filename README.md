@@ -35,6 +35,7 @@ currency-converter/
 │── index.html
 │── style.css
 │── apps.js
+│── codes.js
 └── README.md
 
 📘 How to Use the App
